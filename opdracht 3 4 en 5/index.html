@@ -1,0 +1,117 @@
+<!-- 1. Voorstel voor devices, browsers en resoluties
+ Doelgroep
+Algemene gebruikers op desktop, tablet en mobiel.
+
+ Devices & resoluties
+Apparaat	Resolutiebereik
+Mobiel	320px – 480px
+Tablet	481px – 768px
+Kleine laptop	769px – 1024px
+Desktop	1025px en hoger
+
+ Browsers (laatste 2 versies ondersteund)
+Chrome
+
+Firefox
+
+Safari
+
+Microsoft Edge
+
+Toegankelijkheid
+Minimaal WCAG 2.1 A
+
+Correct gebruik van semantische elementen
+
+Contrast voldoende
+
+Navigatie via toetsenbord mogelijk
+
+Alternatieve teksten voorbereid voor afbeeldingen (indien later toegevoegd) -->
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Concept Design Applicatie</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      min-height: 100vh;
+    }
+
+    header, footer {
+      background-color: #333;
+      color: white;
+      padding: 1rem;
+    }
+
+    nav {
+      background-color: #555;
+      color: white;
+      display: flex;
+      justify-content: space-around;
+      padding: 1rem;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 1rem;
+      padding: 1rem;
+    }
+
+    article, section {
+      background-color: #f5f5f5;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      main {
+        grid-template-columns: 1fr;
+      }
+
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Applicatie Naam</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Over</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <main>
+    <article>
+      <h2>Artikel Titel</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec ultrices risus.</p>
+    </article>
+
+    <section>
+      <h2>Extra Sectie</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi luctus lacus a sem fermentum, sed laoreet erat tincidunt.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Applicatie Naam</p>
+  </footer>
+</body>
+</html>
