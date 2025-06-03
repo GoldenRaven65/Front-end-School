@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keydown/Keyup Event Test</title>
+</head>
+<body>
+
+Kijk in de console voor resultaat<br>
+    <input type="text" id="myInput">
+
+    <script>
+        document.getElementById('myInput').addEventListener('keydown', function(event) {
+            console.log('Toets ingedrukt: ', event.key);
+        });
+
+        document.getElementById('myInput').addEventListener('keyup', function(event) {
+            console.log('Toets losgelaten: ', event.key);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+body {
+    background-color: #006445;
+    
+     background-size: 100%;
+     margin: 0;
+     font-size: 25px;
+     font-family: 'Imbue', serif;
+ }
+
+ nav {
+     display: flex;
+     justify-content: space-around;
+     flex: 3;
+     background-color:  #004630;
+     display: flex;
+     position: sticky;
+ }
+ ul {
+     display: flex;
+     justify-content: space-around;
+     flex: 3;
+ } 
+ .navbar{
+     color: #dbff4a;
+ }
+ .tcrlogo{
+ height: 75px;
+ margin: -20px;
+ width: auto;
+ } .Write{
+ padding-bottom: 150px;
+ padding-right: 150px;}
+.cont {
+text-align: center;
+font-size: 60px;
+ color: #dbff4a;
+ display: flex;
+  justify-content: center;
+ align-items: center;
+}
+a{
+    color: #dbff4a;
+    
+}
+.groen{
+    color: rgb(0, 0, 0);
+}
+.opendag{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 55px;
+    color: #dbff4a;
+}
+.quiz{
+    margin-top: 100px;
+    font-size: 55px;
+    color: #dbff4a;    
+    width: 100vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Imbue', serif;
+   
+   
+}
+p{
+    color: #dbff4a;
+}
+.textQ{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 35px;
+    color: #dbff4a;
+}
+.streepje{
+    text-decoration: none;
+}
+.whitebackground{
+    background-color: white;
+
+}
+.socials{
+    display: flex;
+    justify-content: space-around  ;
+    flex-direction: row;
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+}
+.foto{
+    display: flex;
+    justify-content: space-between;
+}
+.talent {
+    display: inline-block;
+   align-items: center;
+  
+    cursor: pointer;
+  display: flex;
+    flex-direction: column;
+
+  }
+.learned {
+    background-color: green;
+   border: solid 2px black;
+   display: flex;
+   justify-content: center;
+   
+  }
+
+.inschrijftext{
+    margin-right: 40%;
+    margin-left: 5px;
+    color: #dbff4a;
+}
+.inschrijven{
+    display: flex;
+    justify-content: space-around;
+}
+.opentx{
+    display: flex;
+    justify-content: center;
+}
+.roodlt{
+    color: black;
+}
+.talenttreetext{
+    display: flex;
+    justify-content: center;
+   
+}
+.reloadbv{
+    display: flex;
+    top: 100px; right: 16px;
+    position: absolute;
+}
+.geenpunt{
+  list-style-type: none;
+}

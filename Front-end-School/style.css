@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #fff;
+}
+
+header {
+  background-color: #84a5dd;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .name h1,
+header .name h2 {
+  margin: 0;
+  color: #fff;
+}
+header .profile-pic {
+  background: lightgray;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.8rem;
+  line-height: 1.2;
+}
+
+.info-section {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  padding: 2rem 0;
+  margin-top: 50px;
+}
+.info-section .column {
+  background-color: #84a5dd;
+  padding: 1rem;
+  width: 15%;
+  color: #fff;
+}
+.info-section .column .job {
+  background-color: #3d3d3d;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.projects-section {
+  background-color: #84a5dd;
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+  color: #fff;
+}
+.projects-section .project-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.projects-section .project-container #project-content h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+.projects-section .project-container #project-content p {
+  font-size: 0.95rem;
+}
+.projects-section .circle {
+  background: lightgray;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin: 1rem auto;
+}
+.projects-section .nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.projects-section .nav.left {
+  left: 10px;
+}
+.projects-section .nav.right {
+  right: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #84a5dd;
+  height: 50px;
+}
+footer .contact-btn {
+  position: sticky;
+  background: black;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.socials {
+  text-align: center;
+  margin: 4rem 0 2rem;
+}
+.socials h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+.socials .social-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.socials .social-links .social {
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  color: white;
+  transition: background 0.3s ease, transform 0.2s;
+}
+.socials .social-links .social.github {
+  background-color: #333;
+}
+.socials .social-links .social.github:hover {
+  background-color: #444;
+  transform: translateY(-2px);
+}
+.socials .social-links .social.linkedin {
+  background-color: #0077b5;
+}
+.socials .social-links .social.linkedin:hover {
+  background-color: #005582;
+  transform: translateY(-2px);
+}
+.socials .social-links .social.twitter {
+  background-color: #1da1f2;
+}
+.socials .social-links .social.twitter:hover {
+  background-color: #0d95e8;
+  transform: translateY(-2px);
+}
+.socials .social-links .social.email {
+  background-color: #6c63ff;
+}
+.socials .social-links .social.email:hover {
+  background-color: #5149e5;
+  transform: translateY(-2px);
+}
+
+/*# sourceMappingURL=style.css.map */

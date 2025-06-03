@@ -1,0 +1,13 @@
+// _mixins.scss
+@mixin rounded($radius: 10px) {
+    border-radius: $radius;
+  }
+  
+  @mixin input-style {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid $gray-border;
+    @include rounded(8px);
+    font-size: 16px;
+  }
+  
