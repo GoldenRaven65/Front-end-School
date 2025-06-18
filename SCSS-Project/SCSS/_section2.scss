@@ -1,0 +1,63 @@
+.intro {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  background-color: $primary-color;
+  color: $text-color;
+  padding: 2rem;
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .photo {
+      background-color: lightgray;
+      border-radius: 50%;
+      width: 100px;
+      height: 140px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .work-btn {
+      background-color: $secondary-color;
+      margin-top: 1rem;
+      padding: 1rem;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  }
+  .AboutMe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+
+    h1 {
+      font-size: 3rem;
+      line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+  }
+}
+.photo {
+  background-color: lightgray;
+  border-radius: 50%;
+  width: 100px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

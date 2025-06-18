@@ -1,0 +1,16 @@
+nav {
+  background-color: $nav-color;
+  ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li a {
+      color: $text-color;
+      text-decoration: none;
+      padding: 1rem;
+      display: inline-block;
+    }
+  }
+}

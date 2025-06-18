@@ -1,0 +1,38 @@
+@import 'variables';
+
+.site-footer {
+  background-color: $nav-color;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-top: 220px;
+
+  .footer-content {
+    max-width: 960px;
+    margin: 0 auto;
+
+    p {
+      margin: 0;
+      font-size: 1rem;
+    }
+
+    .social-links {
+      list-style: none;
+      padding: 0;
+      margin: 1rem 0 0;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+
+      li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

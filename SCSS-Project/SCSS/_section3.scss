@@ -1,0 +1,19 @@
+.projects {
+  background-color: $primary-color;
+  color: $text-color;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+
+
+  .project {
+    background-color: $secondary-color;
+    margin: 1rem 0;
+    padding: 1rem;
+    height: 500px;
+  }
+}
+img {
+  height: 40%;
+  width: 45%;
+}
